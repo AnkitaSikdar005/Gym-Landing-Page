@@ -4,6 +4,8 @@ body {
     margin: 0px;
     padding: 12px 15px;
     background: url('../img/gym4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .left {
@@ -11,7 +13,7 @@ body {
     font-size: 80%;
     display: inline-block;
     position: absolute;
-    left: 49px;
+    left: 10px;
     top: 20px;
 }
 
@@ -27,39 +29,37 @@ body {
 
 .mid {
     display: block;
-    width: 37%;
-    margin: 20px auto;
-
+    width: 100%;
+    text-align: center;
 }
 
 .right {
-    position: absolute;
-    right: 34px;
-    top: 20px;
-    display: inline-block;
+    text-align: right;
+    display: block;
 }
 
 .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
 }
 
 .navbar li {
     font-size: 15px;
     list-style: none;
+    margin-right: 20px;
 }
 
 .navbar li a {
     color: white;
     text-decoration: none;
-    padding: 22px 13px;
 }
 
 .navbar li a:hover,
 .navbar li a.active {
     color: rgba(59, 127, 127, 0.937);
-    padding: 22px 16px;
 }
 
 .btn {
@@ -79,11 +79,12 @@ body {
 }
 
 .container {
-    margin: 78px 652px;
+    margin: 78px auto;
     padding: 20px 48px;
-    width: 38%;
+    width: 90%;
     border-radius: 12px;
     border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .container h1 {
@@ -92,14 +93,14 @@ body {
 
 .container button {
     display: block;
-    width: 94%;
+    width: 100%;
     margin: 3% auto;
 }
 
 .form-group input {
     text-align: center;
     display: block;
-    width: 455px;
+    width: 100%;
     padding: 7px;
     border: 2px solid black;
     margin: 3px auto;
