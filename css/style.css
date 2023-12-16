@@ -79,9 +79,9 @@ body {
 }
 
 .container {
-    margin: 78px auto;
+    margin: 78px 645px;
     padding: 20px 48px;
-    width: 90%;
+    width: 500px;
     border-radius: 12px;
     border: 2px solid white;
     background-color: rgba(0, 0, 0, 0.5);
